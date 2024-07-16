@@ -1,0 +1,35 @@
+.marquee-item：调整视频大小
+
+.s-larger-4：调整comparison视频大小
+
+.marquee-wrapper：调整走马灯高度
+
+.xtitle /*标题字体大小 */
+
+is-size-5{font-size:1.5rem!important}：AAAI 2025 Anonymous submission字体大小
+
+
+body{
+    font-weight: 350;
+    font-size: 16px;
+    /*background-color: rgb(43, 60, 197);*/
+    /*color: rgb(0, 79, 241);*/
+    /*color: white;*/
+    border-top:5px solid rgb(255, 180, 240);
+    /*border-bottom:5px solid orange;*/
+}  设置正文字体大小和粗细
+
+
+.hero-body {
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 1.5rem 1.5rem
+} 设置模块的padding填充大小
+
+.section {
+    padding: 1.5rem 1.5rem
+} 设置模块的padding填充大小
+
+.block:not(:last-child),.box:not(:last-child),.breadcrumb:not(:last-child),.content:not(:last-child),.highlight:not(:last-child),.level:not(:last-child),.message:not(:last-child),.notification:not(:last-child),.pagination:not(:last-child),.progress:not(:last-child),.subtitle:not(:last-child),.table-container:not(:last-child),.table:not(:last-child),.tabs:not(:last-child),.title:not(:last-child) {
+    margin-bottom: 0.5rem
+} 设置模块的padding填充大小
