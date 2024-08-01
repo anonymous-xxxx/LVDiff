@@ -178,10 +178,16 @@
 }
 
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
-blockquote,body,dd,dl,dt,fieldset,figure,h1,h2,h3,h4,h5,h6,hr,html,iframe,legend,li,ol,p,pre,textarea,ul {
+blockquote,body,dd,dl,dt,fieldset,figure,h1,h2,h3,h5,h6,hr,html,iframe,legend,li,ol,p,pre,textarea,ul {
     margin: 0;
     padding: 0
 }
+
+h4{
+    margin-right: 95px;
+    padding: 0
+}
+
 
 h1,h2,h3,h4,h5,h6 {
     font-size: 100%;
@@ -7985,7 +7991,7 @@ a.panel-block:hover,label.panel-block:hover {
 
 .columns {
     margin-left: -.75rem;
-    margin-right: -.75rem;
+    margin-right: 6.75rem;
     margin-top: -.75rem
 }
 

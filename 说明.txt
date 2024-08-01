@@ -8,7 +8,6 @@
 
 is-size-5{font-size:1.5rem!important}：AAAI 2025 Anonymous submission字体大小
 
-
 body{
     font-weight: 350;
     font-size: 16px;
@@ -18,7 +17,6 @@ body{
     border-top:5px solid rgb(255, 180, 240);
     /*border-bottom:5px solid orange;*/
 }  设置正文字体大小和粗细
-
 
 .hero-body {
     flex-grow: 1;
@@ -33,3 +31,34 @@ body{
 .block:not(:last-child),.box:not(:last-child),.breadcrumb:not(:last-child),.content:not(:last-child),.highlight:not(:last-child),.level:not(:last-child),.message:not(:last-child),.notification:not(:last-child),.pagination:not(:last-child),.progress:not(:last-child),.subtitle:not(:last-child),.table-container:not(:last-child),.table:not(:last-child),.tabs:not(:last-child),.title:not(:last-child) {
     margin-bottom: 0.5rem
 } 设置模块的padding填充大小
+
+.results-carousel .item 调整视频右侧padding
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 调整一行几个视频 */
+  gap: 10px;
+  justify-items: center;
+  margin-top: 20px;
+  margin-right: 200px; /* 调整视频右侧padding */
+}
+
+blockquote,body,dd,dl,dt,fieldset,figure,h1,h2,h3,h5,h6,hr,html,iframe,legend,li,ol,p,pre,textarea,ul {
+    margin: 0;
+    padding: 0
+}调整字体摘要等各种类型的padding和margin
+
+h4{
+    margin-right: 95px;
+    padding: 0
+}调整方框的padding和margin
+
+
+.columns {
+    margin-left: -.75rem;
+    margin-right: 6.75rem;
+    margin-top: -.75rem
+}  # 调整title,abstract,pipeline的右侧padding
+
+
+# hero is-light 背景rgb值为(245,245,245)

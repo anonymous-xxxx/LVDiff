@@ -114,7 +114,10 @@ body {
 .results-carousel .item {
   margin: 5px;
   overflow: hidden;
-  padding: 20px;
+  padding-top: 0px;      /* 上部填充 */
+  padding-right: 90px;    /* 右侧填充 */
+  padding-bottom: 0px;   /* 底部填充 */
+  padding-left: 0px;     /* 左侧填充 */
   font-size: 0;
 }
 
@@ -318,7 +321,7 @@ a:hover:after{
 }
 
 .s-larger{
-  width: 600px;
+  width: 1200px;
   height: 200px;
 }
 
@@ -330,4 +333,97 @@ a:hover:after{
 
 .s-larger d{
   font-size: 16px;
+}
+
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 5px;
+  justify-items: center;
+  margin-top: 20px;
+  margin-right: 95px; /* 调整右侧padding */
+}
+
+.video-item {
+  text-align: center;
+}
+
+.video-item video {
+  width: 100%;
+  max-width: 300px; /* 根据需要调整视频宽度 */
+  height: auto;
+}
+
+.video-item p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 18px;
+  color: rgb(133, 130, 130);
+}
+
+
+
+.jb-title{
+  font-family:'Bradley Hand ITC';
+}
+
+.jb-text1 {
+  padding: 10px 10px;
+  background-color: #9c9c9c;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 15px;
+  font:'Bradley Hand ITC';
+  position:absolute;
+  left:10px;
+  right:0px;
+opacity: 1;
+  display: none;
+width:400px;
+}
+
+.jb-title:hover + .jb-text1 {
+display: block;
+text-align: left;
+}
+
+.jb-text2 {
+  padding: 10px 10px;
+  background-color: #9c9c9c;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 15px;
+  font:'Bradley Hand ITC';
+  position:absolute;
+  left:430px;
+  right:0px;
+opacity: 1;
+  display: none;
+width:400px;
+}
+
+.jb-title:hover + .jb-text2 {
+display: block;
+text-align: left;
+}
+
+.jb-text3 {
+  padding: 10px 10px;
+  background-color: #9c9c9c;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 15px;
+  font:'Bradley Hand ITC';
+  position:absolute;
+  left:850px;
+  right:0px;
+opacity: 1;
+  display: none;
+width:400px;
+}
+
+.jb-title:hover + .jb-text3 {
+display: block;
+text-align: left;
 }
