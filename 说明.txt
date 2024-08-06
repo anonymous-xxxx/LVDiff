@@ -53,13 +53,22 @@ h4{
     padding: 0
 }调整方框的padding和margin
 
-
 .columns {
     margin-left: -.75rem;
     margin-right: 6.75rem;
     margin-top: -.75rem
 }  # 调整title,abstract,pipeline的右侧padding
 
-
-
 # hero is-light 背景rgb值为(245,245,245)
+
+.teaser .hero-body {
+  padding-top: 0;
+  padding-bottom: 3rem;
+  padding-right: 8rem;
+}  # 调整ablation右侧padding
+
+
+img,video {
+    height: auto;
+    max-width: 100%
+} # 调整所有视频大小
