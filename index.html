@@ -1034,10 +1034,10 @@ svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
               </div>
               <div class="marquee-item">
                 <video onloadstart="this.playbackRate = 0.75;" poster="" id="video1" autoplay="" muted="" loop="" playsinline="" height="100%">
-                  <source src="videos\first\0747_dimension.mp4" type="video/mp4">
+                  <source src="videos\first\0622_dimension.mp4" type="video/mp4">
                   sorry, your browser does not support HTML5 Videos.
                   </video>
-                <p class="text-white">Yoda playing guitar on the stage.</p>
+                <p class="text-white">A panda drinking coffee in a cafe.</p>
               </div>
               <div class="marquee-item">
                 <video onloadstart="this.playbackRate = 0.75;" poster="" id="video1" autoplay="" muted="" loop="" playsinline="" height="100%">
@@ -1273,10 +1273,10 @@ svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
       </div>
       <div class="marquee-item">
         <video onloadstart="this.playbackRate = 0.75;" poster="" id="video1" class="lozad" autoplay="" muted="" loop="" playsinline="" height="100%">
-          <source src="videos\first\0622_dimension.mp4" type="video/mp4">
+          <source src="videos\first\0747_dimension.mp4" type="video/mp4">
           sorry, your browser does not support HTML5 Videos.
           </video>
-        <p class="text-white">A panda drinking coffee in a cafe.</p>
+        <p class="text-white">Yoda playing guitar on the stage.</p>
       </div>
       <div class="marquee-item">
         <video onloadstart="this.playbackRate = 0.75;" poster="" id="video1" class="lozad" autoplay="" muted="" loop="" playsinline="" height="100%">
@@ -1565,12 +1565,152 @@ svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
       </video>
       <h2 class="subtitle has-text-centered">
         Campfire at night in a snowy forest with starry sky in the background.
-      </h2>
     </div>
   </div>
 </section>
 
   
+
+<hr style="border: 0; border-top: 4px dashed rgb(0, 0, 0); margin-top: 0px; margin-bottom: 2px; position: relative;">
+
+<section class="section hero is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Supplementary results for rebuttal</h2>
+      
+      
+      <h3 style="margin-top:30px; margin-bottom:10px; color:rgb(133, 130, 130); font-size:24px;">Qualitative Results of LVDiff based on CogVideoX-5B (defualt 48 frames)</h3>
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <div style="text-align: center;">
+          <video width="420" controls autoplay loop muted>
+            <source src="videos\rebuttal\cogvideoX_144.mp4" type="video/mp4">
+          </video>
+          <p>A white vintage SUV driving on the dirt road (144 frames)</p>
+        </div>
+        
+        <div style="text-align: center;">
+          <video width="420" controls autoplay loop muted>
+            <source src="videos\rebuttal\cogvideoX_264.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p>An astronaut riding a horse (264 frames)</p>
+        </div>
+  
+        <div style="text-align: center;">
+          <video width="420" controls autoplay loop muted>
+            <source src="videos\rebuttal\cogvideoX_384.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p>Clown fish swimming through the coral reef (384 frames)</p>    
+        </div>
+      </div>
+
+      <h3 style="margin-top:30px; margin-bottom:10px; color:rgb(133, 130, 130); font-size:24px;">Comparison with CogVideoX-5B-I2V (defualt 48 frames)</h3>
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-direction: column;">
+        <div style="text-align: center; margin-bottom: 10px">
+            <!-- 使用 margin-left 调整位置 -->
+            <img src="videos\rebuttal\image.png" width="420" alt="A man wearing a helmet riding a bicycle on the road" style="display: block; margin-left: 5px;">
+            <p>&nbsp;&nbsp;A panda eating bamboo on a rock (reference image)</p>
+        </div>
+    </div>
+
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <div style="text-align: center;">
+            <video width="420" controls autoplay loop muted>
+                <source src="videos\rebuttal\I2V_48.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>CogVideoX-5B-I2V (48 frames)</p>
+        </div>
+    
+        <div style="text-align: center;">
+            <video width="420" controls autoplay loop muted>
+                <source src="videos\rebuttal\I2V_144.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>CogVideoX-5B-I2V (144 frames)</p>
+        </div>
+
+        <div style="text-align: center;">
+          <video width="420" controls autoplay loop muted>
+              <source src="videos\rebuttal\ours_144.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+          <p>LVDiff (144 frames)</p>
+      </div>
+      </div>
+    
+      <h3 style="margin-top:30px; margin-bottom:10px; color:rgb(133, 130, 130); font-size:24px;">512-frame video results using single prompts based on VideoCrafter2 (defualt 16 frames)</h3>
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        
+        <div style="text-align: center;">
+          <video width="420" controls autoplay loop muted>
+            <source src="videos\rebuttal\0747.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p>Yoda playing guitar on the stage</p>
+        </div>
+
+        <div style="text-align: center;">
+          <video width="420" controls autoplay loop muted>
+            <source src="videos\rebuttal\0590.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p>A beautiful coastal beach in spring, waves lapping on sand</p>
+        </div>
+
+        <div style="text-align: center;">
+          <video width="420" controls autoplay loop muted>
+            <source src="videos\rebuttal\0267.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p>A man wearing a helmet riding a bicycle on the road</p>
+        </div>
+        
+      </div>
+
+
+      <h3 style="margin-top:30px; margin-bottom:10px; color:rgb(133, 130, 130); font-size:24px;">Comparison with other methods based on VideoCrafter2 </h3>
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-direction: column;">
+        <div style="text-align: center; margin-bottom: 10px">
+            <video width="420" controls autoplay loop muted>
+              <source src="videos\rebuttal\LVDiff.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>            
+          <p>A person is playing piano (LVDiff 512 frames)</p>
+        </div>
+    </div>
+
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+      <div style="text-align: center;">
+        <video width="420" controls autoplay loop muted>
+          <source src="videos\rebuttal\Free.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p>FreeNoise</p>
+      </div>
+      
+      <div style="text-align: center;">
+        <video width="420" controls autoplay loop muted>
+          <source src="videos\rebuttal\FIFO.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p>FIFO</p>
+      </div>
+
+      <div style="text-align: center;">
+        <video width="420" controls autoplay loop muted>
+          <source src="videos\rebuttal\GenL.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p>GenL</p>
+
+      </div>
+    </div>
+
+    </div>
+  </div>
+</section>
 
 
 
