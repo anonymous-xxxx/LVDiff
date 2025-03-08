@@ -1,9 +1,9 @@
 import cv2
 
 # 打开视频文件
-keep_frames = 161
-video_path = r'C:\Users\73977\Desktop\AAAI\LVDiff-page-github\videos\long_examples\1000_frames_a pair of dancing lovers in the center.mp4'  # 替换为你的视频路径
-output_path = r'C:\Users\73977\Desktop\AAAI\LVDiff-page-github\videos\good_wan\t2v-1.3B_832_480_1_1_A_balloon_filled_with_water_was_thrown.mp4'  # 新视频保存路径
+keep_frames = 256
+video_path = r'C:\Users\73977\Desktop\AAAI\LVDiff-page-github\videos\VideoCrafter1\0590.mp4'  # 替换为你的视频路径
+output_path = r'C:\Users\73977\Desktop\AAAI\LVDiff-page-github\videos\VideoCrafter1\05901.mp4'  # 新视频保存路径
 
 cap = cv2.VideoCapture(video_path)
 

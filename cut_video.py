@@ -38,6 +38,6 @@ def video_to_frames(video_path, output_folder):
     print(f"Finished! Total frames saved: {frame_count}")
 
 # 使用示例
-video_path = r"C:\Users\73977\Desktop\AAAI\LVDiff-page-github\videos\long_examples\1000_frames_a pair of dancing lovers in the center.mp4"  # 替换为你的视频路径
-output_folder = r"C:\Users\73977\Downloads\123"  # 替换为你想保存图像的文件夹路径
+video_path = r"C:\Users\73977\Desktop\AAAI\LVDiff-page-github\videos\rebuttal\I2V_144.mp4"  # 替换为你的视频路径
+output_folder = r"C:\Users\73977\Desktop\AAAI\LVDiff-page-github\videos\rebuttal\I2V_144"  # 替换为你想保存图像的文件夹路径
 video_to_frames(video_path, output_folder)

@@ -2,8 +2,8 @@ import os
 from moviepy.editor import VideoFileClip
 
 # 定义输入和输出文件夹路径
-input_folder = r"C:\Users\73977\Desktop\AAAI\LVDiff-page-github\wan_final"  # 替换为你的视频文件夹路径
-output_folder = r"C:\Users\73977\Desktop\AAAI\LVDiff-page-github\wan_final"     # 替换为输出文件夹路径
+input_folder = r"C:\Users\73977\Downloads\新建文件夹"  # 替换为你的视频文件夹路径
+output_folder = r"C:\Users\73977\Downloads\新建文件夹1"     # 替换为输出文件夹路径
 
 # 确保输出文件夹存在
 if not os.path.exists(output_folder):
